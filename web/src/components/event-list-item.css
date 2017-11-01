@@ -1,0 +1,21 @@
+.event-type, .event-message {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.event-type {
+  color: SteelBlue;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-right: 10px;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+.event-message {
+  color: SlateGray;
+  width: calc(100% - 120px);
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react-stream",
+  "version": "0.1.0",
+  "author": "Wagner Camarao",
+  "description": "Socket client integrated with react redux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wcamarao/react-stream.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "watch": "react-scripts test --env=jsdom"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0",
+    "sinon": "^4.0.1"
+  }
+}

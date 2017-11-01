@@ -1,0 +1,17 @@
+html, body, #root, #root > div, .event-list {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.event-list {
+  margin: 50px auto;
+  width: 750px;
+}
+
+.event-list > .list-group {
+  height: calc(100% - 150px);
+  overflow-y: scroll;
+}

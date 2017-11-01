@@ -1,0 +1,30 @@
+{
+  "name": "react-stream",
+  "version": "0.1.0",
+  "author": "Wagner Camarao",
+  "description": "Service worker to publish events to redis",
+  "license": "MIT",
+  "main": "dist/stream.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wcamarao/react-stream.git"
+  },
+  "scripts": {
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "nodemon --ignore dist/ --exec 'npm run build && node dist/stream.js'"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "ioredis": "^3.1.4",
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.12.1",
+    "rimraf": "^2.6.2"
+  }
+}

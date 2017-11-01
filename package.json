@@ -1,0 +1,20 @@
+{
+  "name": "react-stream",
+  "version": "0.1.0",
+  "author": "Wagner Camarao",
+  "description": "Event streaming with react, redux, redis and sockets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wcamarao/react-stream.git"
+  },
+  "scripts": {
+    "build": "scripts/build.sh",
+    "start": "scripts/start.sh",
+    "test": "scripts/test.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "wait-on": "^2.0.2"
+  }
+}

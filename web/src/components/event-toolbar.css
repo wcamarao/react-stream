@@ -1,0 +1,26 @@
+.event-toolbar {
+  margin-bottom: 10px;
+}
+
+.event-pause-resume {
+  width: 100px;
+}
+
+.event-count {
+  color: Silver;
+  margin-left: 35px;
+}
+
+.event-filter-wrapper {
+  margin-top: 5px;
+}
+
+.event-filter-icon {
+  color: SteelBlue;
+}
+
+.event-filter {
+  border: none;
+  margin-left: 0.75em;
+  outline: none;
+}
